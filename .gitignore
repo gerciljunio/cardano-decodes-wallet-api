@@ -1,0 +1,8 @@
+# Dependency directories
+node_modules
+
+# macOS
+.DS_Store
+
+# Vim swap files
+*.swp

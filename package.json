@@ -1,0 +1,20 @@
+{
+    "name": "cardano-decodes-wallet-api",
+    "version": "0.0.1",
+    "private": false,
+    "description": "Local server for decoding strings used in Cardano wallets based on CIP-0030.",
+    "main": "index.mjs",
+    "scripts": {
+        "start": "pm2 start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gerciljunio/cardano-decodes-wallet-api.git"
+    },
+    "author": "Gercil Junio",
+    "license": "MIT",
+    "dependencies": {
+        "@emurgo/cardano-serialization-lib-nodejs": "^9.1.4",
+        "express": "^4.17.2"
+    }
+}
