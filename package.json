@@ -1,6 +1,6 @@
 {
     "name": "cardano-decodes-wallet-api",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "private": false,
     "description": "Local server for decoding strings used in Cardano wallets based on CIP-0030.",
     "main": "index.mjs",
