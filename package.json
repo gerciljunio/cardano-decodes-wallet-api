@@ -4,8 +4,8 @@
     "private": false,
     "description": "Local server for decoding strings used in Cardano wallets based on CIP-0030.",
     "main": "index.mjs",
-    "scripts": {
-        "start": "pm2 start"
+    "bin": {
+        "cardano-decodes-wallet-api": "index.js"
     },
     "repository": {
         "type": "git",
@@ -15,6 +15,7 @@
     "license": "MIT",
     "dependencies": {
         "@emurgo/cardano-serialization-lib-nodejs": "^9.1.4",
-        "express": "^4.17.2"
+        "express": "^4.17.2",
+        "yargs": "^17.3.1"
     }
 }

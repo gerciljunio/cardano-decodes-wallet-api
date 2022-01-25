@@ -1,8 +1,14 @@
+#! /usr/bin/env node
+
+const yargs = require('yargs/yargs')
+const { hideBin } = require('yargs/helpers')
+const argv = yargs(hideBin(process.argv)).argv
+
 const express = require('express')
 const core = require('./core.js')
 
 const app = express();
-const PORT = 4002;
+const PORT = argv.port || 4002;
 
 app.get('/decodes/nfts/search/:query?/:type?/:balance?', (request, response) => {
     try {
