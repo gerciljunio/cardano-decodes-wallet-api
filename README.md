@@ -126,7 +126,7 @@ In QUERY when used an @ before the word it searches for any part of an item, sim
 
 > I recommend and, if necessary, that the **index.js** file be analyzed for a better understanding.
 
-## Attentions
+## Attention
 
 If you are going to use this package in production, consider using it as a local service and being consumed internally by an application.
 
